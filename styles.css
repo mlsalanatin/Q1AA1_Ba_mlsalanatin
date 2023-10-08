@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@600&family=Young+Serif&display=swap');
+
+*{
+    padding: 0vh;
+    margin: 0vh;
+}
+
+.navbar{
+    text-align: right;
+}
+
+.navlinkz{
+    font-family: 'Young Serif', serif;
+    font-size: medium;
+
+    display: inline;
+    float: right;
+    margin-top: 1vh;
+    margin-right: 20vh;
+    padding-top: 2vh;
+
+    border: 0.3vh solid black;
+    padding: 2vh;
+    border-radius: 2vh;
+    background-color: pink;
+}
+
+.navlinkz2{
+    font-family: 'Young Serif', serif;
+    font-size: medium;
+
+    display: inline;
+    float: right;
+    margin-top: 1vh;
+    margin-right: 4vh;
+    padding-top: 2vh;
+
+    border: 0.3vh solid black;
+    padding: 2vh;
+    border-radius: 2vh;
+    background-color: pink;
+}
+
+.navlinkz a{
+    text-decoration: none;
+}
+
+.navlinkz2 a{
+    text-decoration: none;
+}
+
+.logo{
+    border: 0vh solid rgb(253, 126, 204);
+    padding: 0vh;
+    width: 8vh;
+    height: 8vh;
+    border-radius: 50%;
+    float: left;
+    margin-left: 20vh;
+    margin-top: 1vh;
+
+    background-image: url(shades.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body{
+    min-height: 90vh;
+    background-image: url(Perfect\ Blue.jpg);
+    background-size: cover;
+}
+
+.heading{
+    font-family: 'Yong Serif', serif;
+
+    margin-left: 8vh;
+    font-size: x-large;
+    padding-top: 17vh;
+}
+
+.paragraph{
+    font-family: 'Mukta', sans-serif;
+    margin-left: 8vh;
+}
+
+.button{
+    font-family: 'Young Serif', serif;
+    font-size: small;
+    text-align: center;
+    
+    border: 0.3vh solid black;
+    background-color:pink;
+    margin-left: 8vh;
+    margin-top: 2vh;
+    width: 15vh;
+    height: 5vh;
+    border-radius: 2vh;
+}
+
+.button a{
+    text-decoration: none;
+}
+
+.copyright{
+    font-family: 'Mukta', sans-serif;
+    text-align: left;
+    font-size: medium;
+    float: left;
+    margin-left: 20vh;
+    padding-top: 2vh;
+
+    border: 0.3vh solid black;
+    padding: 2vh;
+    border-radius: 2vh;
+}
+
+.navbar2socmed{
+    border: 0.3vh solid black;
+    width: 2vh;
+    height: 2vh;
+    padding: 2vh;
+    border-radius: 50%;
+    float: right;
+    margin-right: 20vh;
+    margin-top: 2vh;
+    padding: 2vh;
+    background-image: url(Capture.PNG);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.navbar2socmed2{
+    border: 0.3vh solid black;
+    width: 2vh;
+    height: 2vh;
+    padding: 2vh;
+    border-radius: 50%;
+    float: right;
+    margin-right: 2vh;
+    margin-top: 2vh;
+    padding: 2vh;
+    background-image: url(YG.PNG);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.navbar2socmed3{
+    border: 0.3vh solid black;
+    width: 2vh;
+    height: 2vh;
+    padding: 2vh;
+    border-radius: 50%;
+    float: right;
+    margin-right: 2vh;
+    margin-top: 2vh;
+    padding: 2vh;
+    background-image: url(FB.PNG);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.navbar2{
+    background-color:pink;
+    border: 2vh solid pink;
+    width: auto;
+    height: 8vh;
+}
+
+.galleryheading{
+    font-family: 'Young Serif', serif;
+    font-size: large;
+    padding-top: 15vh;
+    text-align: center;
+}
+
+.center{
+    margin-top: 4vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.photo1{
+    background-image: url(shock.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 31vh;
+    height: 31vh;
+    display: inline-block;
+
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    margin-left: 1vh;
+    margin-right: 1vh;
+
+    border: 0vh solid black;
+    height: 31vh;
+    width: 31vh;
+}
+
+.photo2{
+    background-image: url(progdev.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 31vh;
+    height: 31vh;
+    display: inline-block;
+
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    margin-left: 1vh;
+    margin-right: 1vh;
+
+    border: 0vh solid black;
+    height: 31vh;
+    width: 31vh;
+}
+
+.photo3{
+    background-image: url(timezone.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 31vh;
+    height: 31vh;
+    display: inline-block;
+
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    margin-left: 1vh;
+    margin-right: 1vh;
+
+    border: 0vh solid black;
+    height: 31vh;
+    width: 31vh;
+}
+
+.photo4{
+    background-image: url(pisaynight.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 31vh;
+    height: 31vh;
+    display: inline-block;
+
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    margin-left: 1vh;
+    margin-right: 1vh;
+
+    border: 0vh solid black;
+    height: 31vh;
+    width: 31vh;
+}
+
+.photo5{
+    background-image: url(maamlucille.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 31vh;
+    height: 31vh;
+    display: inline-block;
+
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    margin-left: 1vh;
+    margin-right: 1vh;
+
+    border: 0vh solid black;
+    height: 31vh;
+    width: 31vh;
+}
+
+.photo6{
+    background-image: url(isolation.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 31vh;
+    height: 31vh;
+    display:inline-block;
+
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    margin-left: 1vh;
+    margin-right: 1vh;
+
+    border: 0vh solid black;
+    height: 31vh;
+    width: 31vh;
+}
